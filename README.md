@@ -9,6 +9,7 @@ asdas
 as
 d
 asdasda
+<<<<<<< HEAD
 bala
 as
 das
@@ -16,3 +17,6 @@ d
 asd
 asd
 
+=======
+asdasdasd
+>>>>>>> origin/master
