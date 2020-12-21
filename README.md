@@ -14,7 +14,7 @@ Keep in mind that the script must respond appropriately upon possible human-erro
  
 ############################################################################
 
-For array or list management, i would have choosed to run with python for better variable handling but need sometime.
+For array or list management, i would have choosen to run with python for better variable handling but need sometime also job profile mentioned about the bash knowledge
  
  
 ############################################################################
@@ -23,7 +23,8 @@ For array or list management, i would have choosed to run with python for better
 Task 2 cron job that checks for a git repo whereby a build job is actioned once a change has been detected. Output the diff of the change and then start monitoring again.
 ############################################################################
 
-Is it 
+This requirement not explains any specific use case, but i presumed that remote repo changes to monitored and pull the changes to keep the local repo with remote repo.
+However when local repo have conflict with remote repo then additional measures to be taken like merge. so placed the email trigger when git pull fails to do.....
 
 
 
@@ -75,5 +76,15 @@ Write a program or code snippet (any language you prefer) which should read the 
  
 
 This is a real world example, of something we actually have in one of our build pipelines.
+
+
+##################################################################################
+
+used while with IFS for easy reading lines and copied the file using full path but captured the details with just file name to added.txt , deleted.txt
+
+Added .gitignore file and included the added.txt , deleted.txt to skip the remote commit. 
+
+
+####################################################################################
 
  
