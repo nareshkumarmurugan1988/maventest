@@ -36,11 +36,12 @@ if [[  $opt_main = "1" ]];then
 	
 
 elif  [[  $opt_main = "2" ]];then
-        echo "system  randomly picked 10 numbers from 0-20 ranges"
-	ascen=`shuf -i 0-20 -n 10|sort -nr -k1|tr '\n' ' '`
-	decen=`shuf -i 0-20 -n 10|sort -nr -k1|tr '\n' ' '`
-	echo "Random values are sorted in ascending order $ascen" 
-	echo "Random values are sorted in ascending order $decen" 
+        echo "system  randomly picked 10 numbers from 0-10 ranges"
+#	ascen=`shuf -i 0-20 -n 10|sort -nr -k1|tr '\n' ' '`
+#	decen=`shuf -i 0-20 -n 10|sort -nr -k1|tr '\n' ' '`
+#	echo "Random values are sorted in ascending order $ascen" 
+#	echo "Random values are sorted in ascending order $decen" 
+	python random_generate.py
 	show_main_menu
 else
 	echo "Not valid option switching to main menu"
