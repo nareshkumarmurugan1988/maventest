@@ -14,7 +14,7 @@ Keep in mind that the script must respond appropriately upon possible human-erro
  
 ############################################################################
 
-For array or list management, i would have choosen to run with python for better variable handling but need sometime also job profile mentioned about the bash knowledge
+For array or list management, i would have choosen to run with complete python  code for better variable handling but need sometime for menu based job.
  
  
 ############################################################################
